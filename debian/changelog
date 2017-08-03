@@ -1,0 +1,71 @@
+pulse-xmpp-agent-deps (1.1-12)  unstable; urgency=low
+
+  * Add missing OpenSSH-Win64.zip
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net> Thu, 20 Jul 2017 00:59:02 +0100
+
+pulse-xmpp-agent-deps (1.1-11)  unstable; urgency=low
+
+  * Update openssh version to 0.0.18
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net> Thu, 20 Jul 2017 00:59:02 +0100
+
+pulse-xmpp-agent-deps (1.1-10)  unstable; urgency=low
+
+  * Downgrade openssh version to 0.0.17
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net> Thu, 20 Jul 2017 00:59:02 +0100
+
+pulse-xmpp-agent-deps (1.1-9)  unstable; urgency=low
+
+  * Update openssh version to 0.0.18
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net> Thu, 20 Jul 2017 00:59:02 +0100
+
+pulse-xmpp-agent-deps (1.1-8)  unstable; urgency=low
+
+  * Update fusioninventory windows to version 2.3.20
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net> Tue, 18 Jul 2017 00:59:02 +0100
+
+pulse-xmpp-agent-deps (1.1-7)  unstable; urgency=low
+
+  * Update openssh version to 0.0.17
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net> Tue, 28 Mar 2017 00:59:02 +0100
+
+pulse-xmpp-agent-deps (1.1-6)  unstable; urgency=low
+
+  * Update openssh version to 0.0.12
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net> Tue, 28 Mar 2017 00:59:02 +0100
+
+pulse-xmpp-agent-deps (1.1-5)  unstable; urgency=low
+
+  * Add missing dateutils and six deps
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net> Tue, 28 Mar 2017 00:59:02 +0100
+
+pulse-xmpp-agent-deps (1.1-4)  unstable; urgency=low
+
+  * Add missing dateutils and six deps
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net> Tue, 28 Mar 2017 00:59:02 +0100
+
+pulse-xmpp-agent-deps (1.1-3)  unstable; urgency=low
+
+  * Add croniter
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net> Tue, 28 Mar 2017 00:59:02 +0100
+
+pulse-xmpp-agent-deps (1.1-2)  unstable; urgency=low
+
+  * Rebuild
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net> Tue, 28 Mar 2017 00:59:02 +0100
+
+pulse-xmpp-agent-deps (1.1-1)  unstable; urgency=low
+
+  * First version
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net> Tue, 28 Mar 2017 00:59:02 +0100
