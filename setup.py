@@ -18,19 +18,6 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 # MA 02110-1301, USA.
 
-from setuptools import setup
-
-import os
-import sys
-
-if sys.platform.startswith('linux'):
-    fileconf = os.path.join("/", "etc" ,"pulse-xmpp-agent")
-elif sys.platform.startswith('win'):
-    fileconf = os.path.join(os.environ["ProgramFiles"], "Pulse", "etc")
-elif sys.platform.startswith('darwin'):
-    fileconf = os.path.join("/", "Library", "Application Support", "Pulse", "etc")
-
-
 setup(
     classifiers=[
         'Development Status :: 3 - Alpha',
