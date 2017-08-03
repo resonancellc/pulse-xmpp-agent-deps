@@ -44,7 +44,7 @@ setup(
 
     keywords='pulse-xmpp-agent-deps',
     name='pulse-xmpp-agent-deps',
-    version='1.1',
+    version='1.2',
     debian_distro='jessie',
     description = 'Dependancies needed for pulse windows agent',
     url='https://www.siveo.net/',
