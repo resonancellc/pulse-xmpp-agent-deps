@@ -12,8 +12,8 @@ build:
 	 https://www.itefix.net/dl/cwRsync_5.5.0_x86_Free.zip \
 	 https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.18.0/OpenSSH-Win32.zip \
 	 https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.18.0/OpenSSH-Win64.zip \
-	 https://agents.siveo.net/win/fusioninventory-agent_windows-x86_2.3.20.exe \
-	 https://agents.siveo.net/win/fusioninventory-agent_windows-x86_2.3.20-portable.exe
+	 https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.20/fusioninventory-agent_windows-x86_2.3.20.exe \
+	 https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.20/fusioninventory-agent_windows-x86_2.3.20-portable.exe
 	mkdir -p var/lib/pulse2/clients/win32/downloads/python_modules/
 	wget --no-check-certificate -P var/lib/pulse2/clients/win32/downloads/python_modules/ \
 	 http://pypi.python.org/packages/cd/59/7cc2407b15bcd13d43933a5ae163de89b6f366dda8b2b7403453e61c3a05/pypiwin32-219-cp27-none-win32.whl \
