@@ -16,8 +16,8 @@ build:
 	 https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.20/fusioninventory-agent_windows-x86_2.3.20-portable.exe \
 	 https://github.com/stascorp/rdpwrap/releases/download/v1.6.1/RDPWrap-v1.6.1.zip \
 	 https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-32bit.msi
-	 mkdir -p var/lib/pulse2/clients/win32/downloads/python_modules/
-	 wget --no-check-certificate -P var/lib/pulse2/clients/win32/downloads/python_modules/ \
+	mkdir -p var/lib/pulse2/clients/win32/downloads/python_modules/
+	wget --no-check-certificate -P var/lib/pulse2/clients/win32/downloads/python_modules/ \
 	 http://pypi.python.org/packages/cd/59/7cc2407b15bcd13d43933a5ae163de89b6f366dda8b2b7403453e61c3a05/pypiwin32-219-cp27-none-win32.whl \
 	 http://pypi.python.org/packages/a7/4c/8e0771a59fd6e55aac993a7cc1b6a0db993f299514c464ae6a1ecf83b31d/netifaces-0.10.5.tar.gz \
 	 http://pypi.python.org/packages/85/11/722b9ce6725bf8160bd8aca68b1e61bd9db422ab12dae28daa7defab2cdc/comtypes-1.1.3-2.zip \
