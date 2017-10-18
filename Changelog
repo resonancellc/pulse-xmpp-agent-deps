@@ -1,4 +1,6 @@
 pulse-xmpp-agent-deps 1.3
 =========================
 
+ * Addition of tightvnc
+ * Add new deps for agent installer for mac
  * Fix lxml URL
