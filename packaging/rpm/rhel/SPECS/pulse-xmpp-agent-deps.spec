@@ -1,10 +1,10 @@
 %global __provides_exclude_from ^%_var/lib/tomcat/webapps/guacamole/classpath/.*$
 
-Summary:	Official JDBC driver for MySQL
+Summary:	Dependancies needed for pulse windows agent
 Name:		pulse-xmpp-agent-deps
 Version:	0.2
 Release:	3%{?dist}
-Source0:	%{name}.tar.xz
+Source0:	%{name}-%{version}.tar.gz
 Source1:        https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi
 Source17:       https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi
 Source2:        https://agents.siveo.net/win/libcurl4-7.52.1-1.tar.xz
@@ -35,6 +35,7 @@ Url:		http://www.siveo.org/
 BuildArch:	noarch
 
 %description
+Dependancies needed for pulse windows agent
 
 %prep
 %setup -q -c
