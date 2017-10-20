@@ -10,7 +10,7 @@ Source17:       https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4
 Source2:        https://agents.siveo.net/win/libcurl4-7.52.1-1.tar.xz
 Source3:	https://www.itefix.net/dl/cwRsync_5.5.0_x86_Free.zip
 Source4:	https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.21.0/OpenSSH-Win32.zip
-Source5:	https://github.com/tabad/fusioninventory-agent-windows-installer/releases/download/2.3.20/fusioninventory-agent_windows-x86_2.3.20.exe
+Source5:	https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.20/fusioninventory-agent_windows-x86_2.3.20.exe
 Source6:	https://pypi.python.org/packages/cd/59/7cc2407b15bcd13d43933a5ae163de89b6f366dda8b2b7403453e61c3a05/pypiwin32-219-cp27-none-win32.whl
 Source7:	https://pypi.python.org/packages/a7/4c/8e0771a59fd6e55aac993a7cc1b6a0db993f299514c464ae6a1ecf83b31d/netifaces-0.10.5.tar.gz
 Source8:	https://pypi.python.org/packages/85/11/722b9ce6725bf8160bd8aca68b1e61bd9db422ab12dae28daa7defab2cdc/comtypes-1.1.3-2.zip
@@ -25,7 +25,7 @@ Source16:	https://pypi.python.org/packages/60/db/645aa9af249f059cc3a368b118de338
 Source18:       https://pypi.python.org/packages/58/2a/17d003f2a9a0188cf9365d63b3351c6522b7d83996b70270c65c789e35b9/croniter-0.3.16.tar.gz
 Source19:       https://pypi.python.org/packages/40/8b/275015d7a9ec293cf1bbf55433258fbc9d0711890a7f6dc538bac7b86bce/python_dateutil-2.6.0-py2.py3-none-any.whl 
 Source20:       https://pypi.python.org/packages/c8/0a/b6723e1bc4c516cb687841499455a8505b44607ab535be01091c0f24f079/six-1.10.0-py2.py3-none-any.whl
-Source21:       https://github.com/tabad/fusioninventory-agent-windows-installer/releases/download/2.3.20/fusioninventory-agent_windows-x86_2.3.20-portable.exe
+Source21:       https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.20/fusioninventory-agent_windows-x86_2.3.20-portable.exe
 Source22:       https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.21.0/OpenSSH-Win64.zip
 Source23:       https://github.com/stascorp/rdpwrap/releases/download/v1.6.1/RDPWrap-v1.6.1.zip
 Source24:       https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-32bit.msi
