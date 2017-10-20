@@ -1,9 +1,16 @@
 %global __provides_exclude_from ^%_var/lib/tomcat/webapps/guacamole/classpath/.*$
 
+%define use_git                1
+%define git                    SHA
+
 Summary:	Dependancies needed for pulse windows agent
 Name:		pulse-xmpp-agent-deps
-Version:	0.2
-Release:	3%{?dist}
+Version:	1.2
+%if ! %use_git
+Release:        1%{?dist}
+%else
+Release:        0.%git.1%{?dist}
+%endif
 Source0:	%{name}-%{version}.tar.gz
 Source1:        https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi
 Source17:       https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi
