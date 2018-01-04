@@ -2,6 +2,7 @@ pulse-xmpp-agent-deps 1.4
 =========================
 
  * Addition of python-3.5 and pyqt-5.9
+ * Addition of py-psutil
 
 
 pulse-xmpp-agent-deps 1.3
