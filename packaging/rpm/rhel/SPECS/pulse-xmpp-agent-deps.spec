@@ -36,6 +36,7 @@ Source21:       https://github.com/fusioninventory/fusioninventory-agent/release
 Source22:       https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.21.0/OpenSSH-Win64.zip
 Source23:       https://github.com/stascorp/rdpwrap/releases/download/v1.6.1/RDPWrap-v1.6.1.zip
 Source24:       https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-32bit.msi
+Source25:       https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.20/FusionInventory-Agent-2.3.20-1.pkg.tar.gz 
 License:	MIT
 Group:		Development/Java
 Url:		http://www.siveo.org/
@@ -55,5 +56,11 @@ cp %SOURCE1 %SOURCE17 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE21 %SOURCE22 %S
 mkdir -p %buildroot/var/lib/pulse2/clients/win32/downloads/python_modules/
 cp %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE18 %SOURCE19 %SOURCE20 %buildroot/var/lib/pulse2/clients/win32/downloads/python_modules/
 
+mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/
+cp %SOURCE25 %buildroot/var/lib/pulse2/clients/mac/downloads/
+mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
+cp %SOURCE7 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE18  %SOURCE19 %SOURCE20 %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
+
 %files
 /var/lib/pulse2/clients/win32/downloads/
+/var/lib/pulse2/clients/mac/downloads/
