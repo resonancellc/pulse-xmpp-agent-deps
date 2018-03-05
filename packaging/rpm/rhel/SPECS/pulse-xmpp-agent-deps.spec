@@ -36,9 +36,13 @@ Source21:       https://github.com/fusioninventory/fusioninventory-agent/release
 Source22:       https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.21.0/OpenSSH-Win64.zip
 Source23:       https://github.com/stascorp/rdpwrap/releases/download/v1.6.1/RDPWrap-v1.6.1.zip
 Source24:       https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-32bit.msi
-Source27: https://pypi.python.org/packages/5b/68/436ce631dc0584969d03186d095f4daf09b5c0193ebd66927524a33411c8/pypiwin32-219-cp35-none-win32.whl
-Source28: https://pypi.python.org/packages/e5/cc/6dd427e738a8db6d0b66525856da43d2ef12c4c19269863927f7cf0e2aaf/psutil-5.4.3-cp27-none-win32.whl
-Source29: https://github.com/stweil/OSXvnc/releases/download/V5_2_1/OSXvnc-5.2.1.dmg
+Source27: 	https://pypi.python.org/packages/5b/68/436ce631dc0584969d03186d095f4daf09b5c0193ebd66927524a33411c8/pypiwin32-219-cp35-none-win32.whl
+Source28: 	https://pypi.python.org/packages/e5/cc/6dd427e738a8db6d0b66525856da43d2ef12c4c19269863927f7cf0e2aaf/psutil-5.4.3-cp27-none-win32.whl
+Source29: 	https://github.com/stweil/OSXvnc/releases/download/V5_2_1/OSXvnc-5.2.1.dmg
+Source30:       https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.10.pkg
+Source31:       https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.11.pkg
+Source32:       https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.12.pkg
+Source33:       https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.13.pkg
 License:	MIT
 Group:		Development/Java
 Url:		http://www.siveo.org/
@@ -62,7 +66,7 @@ mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/python_modules/
 cp %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE18 %SOURCE19 %SOURCE20 %buildroot/var/lib/pulse2/clients/linux/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/
-cp %SOURCE25 %SOURCE29 %buildroot/var/lib/pulse2/clients/mac/downloads/
+cp %SOURCE25 %SOURCE29 %SOURCE30 %SOURCE31 %SOURCE32 %SOURCE33 %buildroot/var/lib/pulse2/clients/mac/downloads/
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 cp %SOURCE7 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE18  %SOURCE19 %SOURCE20 %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 
