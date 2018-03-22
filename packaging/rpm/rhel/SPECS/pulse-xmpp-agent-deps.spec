@@ -12,9 +12,9 @@ Release:        2%{?dist}
 Release:        0.%git.1%{?dist}
 %endif
 Source0:	%{name}-%{version}.tar.gz
-Source1:        https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi
-Source17:       https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi
-Source2:        https://agents.siveo.net/win/libcurl4-7.52.1-1.tar.xz
+Source1:  https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi
+Source17: https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi
+Source2:  https://agents.siveo.net/win/libcurl4-7.52.1-1.tar.xz
 Source3:	https://www.itefix.net/dl/cwRsync_5.5.0_x86_Free.zip
 Source4:	https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.21.0/OpenSSH-Win32.zip
 Source5:	https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/fusioninventory-agent_windows-x86_2.4.exe
@@ -29,20 +29,21 @@ Source13:	https://pypi.python.org/packages/60/ad/d6bc08f235b66c11bbb76df41b973ce
 Source14:	https://pypi.python.org/packages/69/f1/387306c495d8f9b6518ea35348668bc1e8bf56b9c7f1425b5f12df79c356/pycurl-7.43.0-cp27-none-win32.whl
 Source15:	https://pypi.python.org/packages/f1/c7/e19d317cc948095abc872a6e6ae78ac80260f2b45771dfa7a7ce86865f5b/lxml-3.6.0-cp27-none-win32.whl
 Source16:	https://pypi.python.org/packages/60/db/645aa9af249f059cc3a368b118de33889219e0362141e75d4eaf6f80f163/pycrypto-2.6.1.tar.gz
-Source18:       https://pypi.python.org/packages/58/2a/17d003f2a9a0188cf9365d63b3351c6522b7d83996b70270c65c789e35b9/croniter-0.3.16.tar.gz
-Source19:       https://pypi.python.org/packages/40/8b/275015d7a9ec293cf1bbf55433258fbc9d0711890a7f6dc538bac7b86bce/python_dateutil-2.6.0-py2.py3-none-any.whl
-Source20:       https://pypi.python.org/packages/c8/0a/b6723e1bc4c516cb687841499455a8505b44607ab535be01091c0f24f079/six-1.10.0-py2.py3-none-any.whl
-Source21:       https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/fusioninventory-agent_windows-x86_2.4-portable.exe
-Source22:       https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.21.0/OpenSSH-Win64.zip
-Source23:       https://github.com/stascorp/rdpwrap/releases/download/v1.6.1/RDPWrap-v1.6.1.zip
-Source24:       https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-32bit.msi
-Source27: 	https://pypi.python.org/packages/5b/68/436ce631dc0584969d03186d095f4daf09b5c0193ebd66927524a33411c8/pypiwin32-219-cp35-none-win32.whl
-Source28: 	https://pypi.python.org/packages/e5/cc/6dd427e738a8db6d0b66525856da43d2ef12c4c19269863927f7cf0e2aaf/psutil-5.4.3-cp27-none-win32.whl
-Source29: 	https://github.com/stweil/OSXvnc/releases/download/V5_2_1/OSXvnc-5.2.1.dmg
-Source30:       https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.10.pkg
-Source31:       https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.11.pkg
-Source32:       https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.12.pkg
-Source33:       https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.13.pkg
+Source18: https://pypi.python.org/packages/58/2a/17d003f2a9a0188cf9365d63b3351c6522b7d83996b70270c65c789e35b9/croniter-0.3.16.tar.gz
+Source19: https://pypi.python.org/packages/40/8b/275015d7a9ec293cf1bbf55433258fbc9d0711890a7f6dc538bac7b86bce/python_dateutil-2.6.0-py2.py3-none-any.whl
+Source20: https://pypi.python.org/packages/c8/0a/b6723e1bc4c516cb687841499455a8505b44607ab535be01091c0f24f079/six-1.10.0-py2.py3-none-any.whl
+Source21: https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/fusioninventory-agent_windows-x86_2.4-portable.exe
+Source22: https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.21.0/OpenSSH-Win64.zip
+Source23: https://github.com/stascorp/rdpwrap/releases/download/v1.6.1/RDPWrap-v1.6.1.zip
+Source24: https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-32bit.msi
+Source27: https://pypi.python.org/packages/5b/68/436ce631dc0584969d03186d095f4daf09b5c0193ebd66927524a33411c8/pypiwin32-219-cp35-none-win32.whl
+Source28: https://pypi.python.org/packages/e5/cc/6dd427e738a8db6d0b66525856da43d2ef12c4c19269863927f7cf0e2aaf/psutil-5.4.3-cp27-none-win32.whl
+Source29: https://github.com/stweil/OSXvnc/releases/download/V5_2_1/OSXvnc-5.2.1.dmg
+Source30: https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.10.pkg
+Source31: https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.11.pkg
+Source32: https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.12.pkg
+Source33: https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.13.pkg
+Source34: https://github.com/Homebrew/brew/archive/1.5.12.tar.gz
 License:	MIT
 Group:		Development/Java
 Url:		http://www.siveo.org/
@@ -66,7 +67,7 @@ mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/python_modules/
 cp %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE18 %SOURCE19 %SOURCE20 %buildroot/var/lib/pulse2/clients/linux/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/
-cp %SOURCE25 %SOURCE29 %SOURCE30 %SOURCE31 %SOURCE32 %SOURCE33 %buildroot/var/lib/pulse2/clients/mac/downloads/
+cp %SOURCE25 %SOURCE29 %SOURCE30 %SOURCE31 %SOURCE32 %SOURCE33 %SOURCE34 %buildroot/var/lib/pulse2/clients/mac/downloads/
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 cp %SOURCE7 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE18  %SOURCE19 %SOURCE20 %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 

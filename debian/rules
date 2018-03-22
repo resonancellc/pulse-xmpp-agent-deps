@@ -58,8 +58,9 @@ build:
 	 https://github.com/stweil/OSXvnc/releases/download/V5_2_1/OSXvnc-5.2.1.dmg \
 	 https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.10.pkg \
 	 https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.11.pkg \
-	 https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.12.pkg\
-	 https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.13.pkg
+	 https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.12.pkg \
+	 https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.13.pkg \
+	 https://github.com/Homebrew/brew/archive/1.5.12.tar.gz
 	mkdir -p var/lib/pulse2/clients/mac/downloads/python_modules/
 	wget --no-check-certificate -P var/lib/pulse2/clients/mac/downloads/python_modules/ \
 	 https://pypi.python.org/packages/a7/4c/8e0771a59fd6e55aac993a7cc1b6a0db993f299514c464ae6a1ecf83b31d/netifaces-0.10.5.tar.gz \
