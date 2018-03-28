@@ -56,10 +56,6 @@ build:
 	wget --no-check-certificate -P var/lib/pulse2/clients/mac/downloads/ \
 	 https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/FusionInventory-Agent-2.4-1.pkg.tar.gz \
 	 https://github.com/stweil/OSXvnc/releases/download/V5_2_1/OSXvnc-5.2.1.dmg \
-	 https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.10.pkg \
-	 https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.11.pkg \
-	 https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.12.pkg \
-	 https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.13.pkg \
 	 https://github.com/Homebrew/brew/archive/1.5.12.tar.gz
 	mkdir -p var/lib/pulse2/clients/mac/downloads/python_modules/
 	wget --no-check-certificate -P var/lib/pulse2/clients/mac/downloads/python_modules/ \

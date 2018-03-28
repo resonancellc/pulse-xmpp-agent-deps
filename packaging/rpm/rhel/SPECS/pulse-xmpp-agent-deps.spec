@@ -39,10 +39,6 @@ Source24: https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-32bit
 Source27: https://pypi.python.org/packages/5b/68/436ce631dc0584969d03186d095f4daf09b5c0193ebd66927524a33411c8/pypiwin32-219-cp35-none-win32.whl
 Source28: https://pypi.python.org/packages/e5/cc/6dd427e738a8db6d0b66525856da43d2ef12c4c19269863927f7cf0e2aaf/psutil-5.4.3-cp27-none-win32.whl
 Source29: https://github.com/stweil/OSXvnc/releases/download/V5_2_1/OSXvnc-5.2.1.dmg
-Source30: https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.10.pkg
-Source31: https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.11.pkg
-Source32: https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.12.pkg
-Source33: https://agents.siveo.net/mac/downloads/Command_Line_Tools_10.13.pkg
 Source34: https://github.com/Homebrew/brew/archive/1.5.12.tar.gz
 Source35: https://pypi.python.org/packages/77/d9/d272b38e6e25d2686e22f6058820298dadead69340b1c57ff84c87ef81f0/pycurl-7.43.0.1.tar.gz
 License:	MIT
@@ -68,7 +64,7 @@ mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/python_modules/
 cp %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE18 %SOURCE19 %SOURCE20 %buildroot/var/lib/pulse2/clients/linux/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/
-cp %SOURCE25 %SOURCE29 %SOURCE30 %SOURCE31 %SOURCE32 %SOURCE33 %SOURCE34 %buildroot/var/lib/pulse2/clients/mac/downloads/
+cp %SOURCE25 %SOURCE29 %SOURCE34 %buildroot/var/lib/pulse2/clients/mac/downloads/
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 cp %SOURCE7 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE18  %SOURCE19 %SOURCE20 %SOURCE35 %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 
