@@ -3,6 +3,10 @@ pulse-xmpp-agent-deps 1.4
 
  * Addition of py-psutil
  * Addition of py-plyvel for macOS
+ * Update fusioninventory to version 2.4
+ * Addition of Vine Server for macOS
+ * Addition of Homebrew for macOS
+ * Update pycurl version for macOS
 
 
 pulse-xmpp-agent-deps 1.3

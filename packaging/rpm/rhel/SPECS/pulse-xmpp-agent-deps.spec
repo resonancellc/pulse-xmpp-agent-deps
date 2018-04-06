@@ -5,7 +5,7 @@
 
 Summary:	Dependancies needed for pulse windows agent
 Name:		pulse-xmpp-agent-deps
-Version:	1.3
+Version:	1.4
 %if ! %use_git
 Release:        2%{?dist}
 %else
