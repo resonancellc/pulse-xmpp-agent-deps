@@ -10,7 +10,7 @@ build:
 	 https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi \
 	 https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi \
 	 https://agents.siveo.net/win/libcurl4-7.52.1-1.tar.xz  \
-	 https://www.itefix.net/dl/cwRsync_5.5.0_x86_Free.zip \
+	 https://agents.siveo.net/win/cwRsync_5.5.0_x86_Free.zip \
 	 https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.21.0/OpenSSH-Win32.zip \
 	 https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.21.0/OpenSSH-Win64.zip \
 	 https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/fusioninventory-agent_windows-x86_2.4.exe \
