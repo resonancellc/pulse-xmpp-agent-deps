@@ -64,7 +64,7 @@ mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/python_modules/
 cp %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE18 %SOURCE19 %SOURCE20 %buildroot/var/lib/pulse2/clients/linux/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/
-cp %SOURCE25 %SOURCE29 %SOURCE34 %buildroot/var/lib/pulse2/clients/mac/downloads/
+cp %SOURCE29 %SOURCE34 %buildroot/var/lib/pulse2/clients/mac/downloads/
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 cp %SOURCE7 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE18  %SOURCE19 %SOURCE20 %SOURCE35 %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 
