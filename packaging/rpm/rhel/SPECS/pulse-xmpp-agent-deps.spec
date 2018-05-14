@@ -15,7 +15,7 @@ Source0:	%{name}-%{version}.tar.gz
 Source1:  https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi
 Source17: https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi
 Source2:  https://agents.siveo.net/win/libcurl4-7.52.1-1.tar.xz
-Source3:	https://www.itefix.net/dl/cwRsync_5.5.0_x86_Free.zip
+Source3:	https://agents.siveo.net/win/cwRsync_5.5.0_x86_Free.zip
 Source4:	https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.21.0/OpenSSH-Win32.zip
 Source5:	https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/fusioninventory-agent_windows-x86_2.4.exe
 Source6:	https://pypi.python.org/packages/cd/59/7cc2407b15bcd13d43933a5ae163de89b6f366dda8b2b7403453e61c3a05/pypiwin32-219-cp27-none-win32.whl
