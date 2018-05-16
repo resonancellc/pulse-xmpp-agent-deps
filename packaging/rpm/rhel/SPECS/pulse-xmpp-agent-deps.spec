@@ -26,7 +26,7 @@ Source10:	https://pypi.python.org/packages/07/49/42c86388fed58455e7e18d3821d7687
 Source11:	https://pypi.python.org/packages/2e/33/7adcc8d6b35cb72f9cc56785a3d9c63d540200c476b0cb3a0926f5b51102/sleekxmpp-1.3.1.tar.gz
 Source12:	https://pypi.python.org/packages/03/2d/cbf13257c0115bef37b6b743758411cec70c565405cbd08d0f7059bc715f/WMI-1.4.9.zip
 Source13:	https://pypi.python.org/packages/60/ad/d6bc08f235b66c11bbb76df41b973ce93544a907cc0e23c726ea374eee79/zipfile2-0.0.12-py2.py3-none-any.whl
-Source14:	https://files.pythonhosted.org/packages/2d/7c/72086185f781237d91ca12df140e078ef3979466747486cebf3a382c2ccc/pycurl-7.43.0.1-cp27-cp27m-win32.whl
+Source14:	https://files.pythonhosted.org/packages/69/f1/387306c495d8f9b6518ea35348668bc1e8bf56b9c7f1425b5f12df79c356/pycurl-7.43.0-cp27-none-win32.whl
 Source15:	https://pypi.python.org/packages/f1/c7/e19d317cc948095abc872a6e6ae78ac80260f2b45771dfa7a7ce86865f5b/lxml-3.6.0-cp27-none-win32.whl
 Source16:	https://pypi.python.org/packages/60/db/645aa9af249f059cc3a368b118de33889219e0362141e75d4eaf6f80f163/pycrypto-2.6.1.tar.gz
 Source18:   https://pypi.python.org/packages/58/2a/17d003f2a9a0188cf9365d63b3351c6522b7d83996b70270c65c789e35b9/croniter-0.3.16.tar.gz
@@ -45,7 +45,7 @@ Source36:   https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi
 Source37:   https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/fusioninventory-agent_windows-x64_2.4.exe
 Source38:   https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/fusioninventory-agent_windows-x64_2.4-portable.exe
 Source39:   https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-64bit.msi
-Source40:   https://files.pythonhosted.org/packages/5d/c5/b2ddae926ae57113f4a906dabb1ea3f1b4e553a1aa164cea049c3d0a6018/pycurl-7.43.0.1-cp27-cp27m-win_amd64.whl
+Source40:   https://files.pythonhosted.org/packages/a6/5f/09e4740d4ec0c273e2a6ebbceb3d90f4be52f46d94ccac2639c9328e397b/pycurl-7.43.0-cp27-none-win_amd64.whl
 Source41:   https://files.pythonhosted.org/packages/35/a7/6a1a44d3a37358f8fda5d1b992c837cb2db8940293c2d84faa145f29e88a/lxml-3.6.0-cp27-none-win_amd64.whl
 Source42:   https://files.pythonhosted.org/packages/b9/e4/6867765edcab8d12a52c84c9b0af492ecb99f8cc565ad552341bcf73ebd9/psutil-5.4.3-cp27-none-win_amd64.whl
 License:	MIT
