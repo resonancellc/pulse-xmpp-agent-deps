@@ -7,7 +7,7 @@ Summary:	Dependancies needed for pulse windows agent
 Name:		pulse-xmpp-agent-deps
 Version:	1.5
 %if ! %use_git
-Release:        2%{?dist}
+Release:        3%{?dist}
 %else
 Release:        0.%git.1%{?dist}
 %endif
@@ -48,6 +48,7 @@ Source39:   https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-64b
 Source40:   https://files.pythonhosted.org/packages/a6/5f/09e4740d4ec0c273e2a6ebbceb3d90f4be52f46d94ccac2639c9328e397b/pycurl-7.43.0-cp27-none-win_amd64.whl
 Source41:   https://files.pythonhosted.org/packages/35/a7/6a1a44d3a37358f8fda5d1b992c837cb2db8940293c2d84faa145f29e88a/lxml-3.6.0-cp27-none-win_amd64.whl
 Source42:   https://files.pythonhosted.org/packages/b9/e4/6867765edcab8d12a52c84c9b0af492ecb99f8cc565ad552341bcf73ebd9/psutil-5.4.3-cp27-none-win_amd64.whl
+Source43:   https://files.pythonhosted.org/packages/a5/8d/739f12d811d19cd6686f97bb96b65b0e4c8ca428fb02581d872b912b14cf/pypiwin32-219-cp27-none-win_amd64.whl
 License:	MIT
 Group:		Development/Java
 Url:		http://www.siveo.org/
@@ -65,7 +66,7 @@ Dependancies needed for pulse windows agent
 mkdir -p %buildroot/var/lib/pulse2/clients/win32/downloads/
 cp %SOURCE1 %SOURCE36 %SOURCE17 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE37 %SOURCE21 %SOURCE38 %SOURCE22 %SOURCE23 %SOURCE24 %SOURCE39 %buildroot/var/lib/pulse2/clients/win32/downloads/
 mkdir -p %buildroot/var/lib/pulse2/clients/win32/downloads/python_modules/
-cp %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE40 %SOURCE15 %SOURCE41 %SOURCE16 %SOURCE18 %SOURCE19 %SOURCE20 %SOURCE27 %SOURCE28 %SOURCE42 %buildroot/var/lib/pulse2/clients/win32/downloads/python_modules/
+cp %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE40 %SOURCE15 %SOURCE41 %SOURCE16 %SOURCE18 %SOURCE19 %SOURCE20 %SOURCE27 %SOURCE28 %SOURCE42 %SOURCE43 %buildroot/var/lib/pulse2/clients/win32/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/python_modules/
 
