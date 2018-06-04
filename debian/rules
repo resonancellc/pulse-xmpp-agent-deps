@@ -10,7 +10,7 @@ build:
 	 https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi \
 	 https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi \
 	 https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe \
-	 https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
+	 https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe \
 	 https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi \
 	 https://agents.siveo.net/win/libcurl4-7.52.1-1.tar.xz  \
 	 https://agents.siveo.net/win/cwRsync_5.5.0_x86_Free.zip \
