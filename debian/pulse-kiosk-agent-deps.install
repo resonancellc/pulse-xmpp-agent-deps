@@ -6,3 +6,4 @@ var/lib/pulse2/clients/win32/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.c
 var/lib/pulse2/clients/win32/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win_amd64.whl
 var/lib/pulse2/clients/win32/downloads/python_modules/sip-4.19.8-cp36-none-win32.whl
 var/lib/pulse2/clients/win32/downloads/python_modules/sip-4.19.8-cp36-none-win_amd64.whl
+var/lib/pulse2/clients/win32/downloads/python_modules/tray-0.1.0.tar.gz

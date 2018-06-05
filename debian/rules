@@ -49,7 +49,8 @@ build:
 	 https://files.pythonhosted.org/packages/6c/63/89f888968ee0c7e7ffb2ea7604fae3ef85f7bc86f57dd07019805aa78798/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win32.whl \
 	 https://files.pythonhosted.org/packages/a7/22/67cc2bac6ae2cd3a7eabb2a2e91638b94bdc6e0503747e49670ce44bb5b0/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win_amd64.whl \
 	 https://files.pythonhosted.org/packages/7a/49/67cc7955baf2ec5b67e141da2ab2a436cbf0f8d7c9fcab54e35df21d056b/sip-4.19.8-cp36-none-win32.whl \
-	 https://files.pythonhosted.org/packages/30/fa/90ea79d7b6b21a50e16d2e1214bd4d45390ee1b5393dc09c3785a3dc9c7e/sip-4.19.8-cp36-none-win_amd64.whl
+	 https://files.pythonhosted.org/packages/30/fa/90ea79d7b6b21a50e16d2e1214bd4d45390ee1b5393dc09c3785a3dc9c7e/sip-4.19.8-cp36-none-win_amd64.whl \
+	 https://files.pythonhosted.org/packages/a2/38/3adebc116c711f795edb94004afbd9784576b6ee50b7f89647889382d152/tray-0.1.0.tar.gz
 
 	#Linux Modules
 	mkdir -p var/lib/pulse2/clients/linux/downloads/python_modules/
