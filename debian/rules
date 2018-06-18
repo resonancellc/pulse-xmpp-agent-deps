@@ -9,6 +9,8 @@ build:
 	wget --no-check-certificate -P var/lib/pulse2/clients/win32/downloads/ \
 	 https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi \
 	 https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi \
+	 https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe \
+	 https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe \
 	 https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi \
 	 https://agents.siveo.net/win/libcurl4-7.52.1-1.tar.xz  \
 	 https://agents.siveo.net/win/cwRsync_5.5.0_x86_Free.zip \
@@ -41,7 +43,15 @@ build:
 	 https://pypi.python.org/packages/40/8b/275015d7a9ec293cf1bbf55433258fbc9d0711890a7f6dc538bac7b86bce/python_dateutil-2.6.0-py2.py3-none-any.whl \
 	 https://pypi.python.org/packages/c8/0a/b6723e1bc4c516cb687841499455a8505b44607ab535be01091c0f24f079/six-1.10.0-py2.py3-none-any.whl \
 	 https://pypi.python.org/packages/e5/cc/6dd427e738a8db6d0b66525856da43d2ef12c4c19269863927f7cf0e2aaf/psutil-5.4.3-cp27-none-win32.whl \
-	 https://files.pythonhosted.org/packages/b9/e4/6867765edcab8d12a52c84c9b0af492ecb99f8cc565ad552341bcf73ebd9/psutil-5.4.3-cp27-none-win_amd64.whl
+	 https://files.pythonhosted.org/packages/b9/e4/6867765edcab8d12a52c84c9b0af492ecb99f8cc565ad552341bcf73ebd9/psutil-5.4.3-cp27-none-win_amd64.whl \
+	 https://github.com/mhammond/pywin32/releases/download/b223/pywin32-223.win32-py3.6.exe \
+	 https://github.com/mhammond/pywin32/releases/download/b223/pywin32-223.win-amd64-py3.6.exe \
+	 https://files.pythonhosted.org/packages/6c/63/89f888968ee0c7e7ffb2ea7604fae3ef85f7bc86f57dd07019805aa78798/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win32.whl \
+	 https://files.pythonhosted.org/packages/a7/22/67cc2bac6ae2cd3a7eabb2a2e91638b94bdc6e0503747e49670ce44bb5b0/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win_amd64.whl \
+	 https://files.pythonhosted.org/packages/7a/49/67cc7955baf2ec5b67e141da2ab2a436cbf0f8d7c9fcab54e35df21d056b/sip-4.19.8-cp36-none-win32.whl \
+	 https://files.pythonhosted.org/packages/30/fa/90ea79d7b6b21a50e16d2e1214bd4d45390ee1b5393dc09c3785a3dc9c7e/sip-4.19.8-cp36-none-win_amd64.whl \
+	 https://files.pythonhosted.org/packages/a2/38/3adebc116c711f795edb94004afbd9784576b6ee50b7f89647889382d152/tray-0.1.0.tar.gz
+
 	#Linux Modules
 	mkdir -p var/lib/pulse2/clients/linux/downloads/python_modules/
 	#Mac Modules
