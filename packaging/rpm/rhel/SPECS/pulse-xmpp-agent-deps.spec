@@ -58,8 +58,6 @@ Source123:   https://files.pythonhosted.org/packages/7a/49/67cc7955baf2ec5b67e14
 Source124:   https://files.pythonhosted.org/packages/30/fa/90ea79d7b6b21a50e16d2e1214bd4d45390ee1b5393dc09c3785a3dc9c7e/sip-4.19.8-cp36-none-win_amd64.whl
 Source125:   https://files.pythonhosted.org/packages/a2/38/3adebc116c711f795edb94004afbd9784576b6ee50b7f89647889382d152/tray-0.1.0.tar.gz
 
-
-
 License:	MIT
 Group:		Development/Java
 Url:		http://www.siveo.org/
@@ -67,6 +65,15 @@ BuildArch:	noarch
 
 %description
 Dependancies needed for pulse windows agent
+
+
+%package -n pulse-kiosk-agent-deps
+Summary:    Dependancies needed for kiosk windows agent
+Group:      System/Servers
+Requires:   pulse2-common = %version-%release
+
+%description -n pulse-kiosk-agent-deps
+Dependancies needed for kiosk windows agent
 
 %prep
 %setup -q -c
@@ -85,7 +92,29 @@ mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/
 cp %SOURCE17 %SOURCE18 %buildroot/var/lib/pulse2/clients/mac/downloads/
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %buildroot/var/lib/pulse2/clients/win32/downloads/python_modules/
+
+
 %files
 /var/lib/pulse2/clients/linux/downloads/
 /var/lib/pulse2/clients/mac/downloads/
 /var/lib/pulse2/clients/win32/downloads/
+%exclude /var/lib/pulse2/clients/win32/downloads/python-3.6.5.exe
+%exclude /var/lib/pulse2/clients/win32/downloads/python-3.6.5-amd64.exe
+%exclude /var/lib/pulse2/clients/win32/downloads/python_modules/pywin32-223.win32-py3.6.exe
+%exclude /var/lib/pulse2/clients/win32/downloads/python_modules/pywin32-223.win-amd64-py3.6.exe
+%exclude /var/lib/pulse2/clients/win32/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win32.whl
+%exclude /var/lib/pulse2/clients/win32/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win_amd64.whl
+%exclude /var/lib/pulse2/clients/win32/downloads/python_modules/sip-4.19.8-cp36-none-win32.whl
+%exclude /var/lib/pulse2/clients/win32/downloads/python_modules/sip-4.19.8-cp36-none-win_amd64.whl
+%exclude /var/lib/pulse2/clients/win32/downloads/python_modules/tray-0.1.0.tar.gz
+
+%files -n pulse-kiosk-agent-deps
+/var/lib/pulse2/clients/win32/downloads/python-3.6.5.exe
+/var/lib/pulse2/clients/win32/downloads/python-3.6.5-amd64.exe
+/var/lib/pulse2/clients/win32/downloads/python_modules/pywin32-223.win32-py3.6.exe
+/var/lib/pulse2/clients/win32/downloads/python_modules/pywin32-223.win-amd64-py3.6.exe
+/var/lib/pulse2/clients/win32/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win32.whl
+/var/lib/pulse2/clients/win32/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win_amd64.whl
+/var/lib/pulse2/clients/win32/downloads/python_modules/sip-4.19.8-cp36-none-win32.whl
+/var/lib/pulse2/clients/win32/downloads/python_modules/sip-4.19.8-cp36-none-win_amd64.whl
+/var/lib/pulse2/clients/win32/downloads/python_modules/tray-0.1.0.tar.gz
