@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Nicolas Lécureuil <nicolas.lecureuil@siveo.net>
 Build-Depends: debhelper (>= 5.0.37.2), wget
 Standards-Version: 3.9.4
-Homepage: http://www.siveo.net/
+Homepage: http://www.siveo.net/pulse/
 
 Package: pulse-xmpp-agent-deps
 Architecture: all
