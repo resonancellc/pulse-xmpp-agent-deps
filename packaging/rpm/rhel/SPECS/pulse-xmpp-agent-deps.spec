@@ -57,6 +57,10 @@ Source122:   https://files.pythonhosted.org/packages/a7/22/67cc2bac6ae2cd3a7eabb
 Source123:   https://files.pythonhosted.org/packages/7a/49/67cc7955baf2ec5b67e141da2ab2a436cbf0f8d7c9fcab54e35df21d056b/sip-4.19.8-cp36-none-win32.whl
 Source124:   https://files.pythonhosted.org/packages/30/fa/90ea79d7b6b21a50e16d2e1214bd4d45390ee1b5393dc09c3785a3dc9c7e/sip-4.19.8-cp36-none-win_amd64.whl
 Source125:   https://files.pythonhosted.org/packages/a2/38/3adebc116c711f795edb94004afbd9784576b6ee50b7f89647889382d152/tray-0.1.0.tar.gz
+Source126:   https://pypi.python.org/packages/77/d9/d272b38e6e25d2686e22f6058820298dadead69340b1c57ff84c87ef81f0/pycurl-7.43.0.1.tar.gz
+Source127:   https://pypi.python.org/packages/11/1b/fe6904151b37a0d6da6e60c13583945f8ce3eae8ebd0ec763ce546358947/lxml-3.6.0.tar.gz
+Source128:   https://pypi.python.org/packages/e2/e1/600326635f97fee89bf8426fef14c5c29f4849c79f68fd79f433d8c1bd96/psutil-5.4.3.tar.gz
+Source129:   https://pypi.python.org/packages/28/df/755dab9f83c37031aea1cd9915673b5633665c575d649e812657df95b944/plyvel-1.0.1.tar.gz
 
 License:	MIT
 Group:		Development/Java
@@ -81,40 +85,40 @@ Dependancies needed for kiosk windows agent
 %build
 
 %install
-mkdir -p %buildroot/var/lib/pulse2/clients/win32/downloads/
-cp %SOURCE1 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %buildroot/var/lib/pulse2/clients/win32/downloads/
-mkdir -p %buildroot/var/lib/pulse2/clients/win32/downloads/python_modules/
-cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %buildroot/var/lib/pulse2/clients/win32/downloads/python_modules/
+mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/
+cp %SOURCE1 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %buildroot/var/lib/pulse2/clients/win/downloads/
+mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
+cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/
 cp %SOURCE17 %SOURCE18 %buildroot/var/lib/pulse2/clients/mac/downloads/
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
-cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %buildroot/var/lib/pulse2/clients/win32/downloads/python_modules/
+cp %SOURCE102 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE108 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE126 %SOURCE127 %SOURCE128 %SOURCE129 %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 
 
 %files
 /var/lib/pulse2/clients/linux/downloads/
 /var/lib/pulse2/clients/mac/downloads/
-/var/lib/pulse2/clients/win32/downloads/
-%exclude /var/lib/pulse2/clients/win32/downloads/python-3.6.5.exe
-%exclude /var/lib/pulse2/clients/win32/downloads/python-3.6.5-amd64.exe
-%exclude /var/lib/pulse2/clients/win32/downloads/python_modules/pywin32-223.win32-py3.6.exe
-%exclude /var/lib/pulse2/clients/win32/downloads/python_modules/pywin32-223.win-amd64-py3.6.exe
-%exclude /var/lib/pulse2/clients/win32/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win32.whl
-%exclude /var/lib/pulse2/clients/win32/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win_amd64.whl
-%exclude /var/lib/pulse2/clients/win32/downloads/python_modules/sip-4.19.8-cp36-none-win32.whl
-%exclude /var/lib/pulse2/clients/win32/downloads/python_modules/sip-4.19.8-cp36-none-win_amd64.whl
-%exclude /var/lib/pulse2/clients/win32/downloads/python_modules/tray-0.1.0.tar.gz
+/var/lib/pulse2/clients/win/downloads/
+%exclude /var/lib/pulse2/clients/win/downloads/python-3.6.5.exe
+%exclude /var/lib/pulse2/clients/win/downloads/python-3.6.5-amd64.exe
+%exclude /var/lib/pulse2/clients/win/downloads/python_modules/pywin32-223.win32-py3.6.exe
+%exclude /var/lib/pulse2/clients/win/downloads/python_modules/pywin32-223.win-amd64-py3.6.exe
+%exclude /var/lib/pulse2/clients/win/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win32.whl
+%exclude /var/lib/pulse2/clients/win/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win_amd64.whl
+%exclude /var/lib/pulse2/clients/win/downloads/python_modules/sip-4.19.8-cp36-none-win32.whl
+%exclude /var/lib/pulse2/clients/win/downloads/python_modules/sip-4.19.8-cp36-none-win_amd64.whl
+%exclude /var/lib/pulse2/clients/win/downloads/python_modules/tray-0.1.0.tar.gz
 
 %files -n pulse-kiosk-agent-deps
-/var/lib/pulse2/clients/win32/downloads/python-3.6.5.exe
-/var/lib/pulse2/clients/win32/downloads/python-3.6.5-amd64.exe
-/var/lib/pulse2/clients/win32/downloads/python_modules/pywin32-223.win32-py3.6.exe
-/var/lib/pulse2/clients/win32/downloads/python_modules/pywin32-223.win-amd64-py3.6.exe
-/var/lib/pulse2/clients/win32/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win32.whl
-/var/lib/pulse2/clients/win32/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win_amd64.whl
-/var/lib/pulse2/clients/win32/downloads/python_modules/sip-4.19.8-cp36-none-win32.whl
-/var/lib/pulse2/clients/win32/downloads/python_modules/sip-4.19.8-cp36-none-win_amd64.whl
-/var/lib/pulse2/clients/win32/downloads/python_modules/tray-0.1.0.tar.gz
+/var/lib/pulse2/clients/win/downloads/python-3.6.5.exe
+/var/lib/pulse2/clients/win/downloads/python-3.6.5-amd64.exe
+/var/lib/pulse2/clients/win/downloads/python_modules/pywin32-223.win32-py3.6.exe
+/var/lib/pulse2/clients/win/downloads/python_modules/pywin32-223.win-amd64-py3.6.exe
+/var/lib/pulse2/clients/win/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win32.whl
+/var/lib/pulse2/clients/win/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win_amd64.whl
+/var/lib/pulse2/clients/win/downloads/python_modules/sip-4.19.8-cp36-none-win32.whl
+/var/lib/pulse2/clients/win/downloads/python_modules/sip-4.19.8-cp36-none-win_amd64.whl
+/var/lib/pulse2/clients/win/downloads/python_modules/tray-0.1.0.tar.gz
