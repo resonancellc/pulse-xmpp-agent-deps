@@ -19,10 +19,10 @@ var/lib/pulse2/clients/win/downloads/OpenSSH-Win64.zip
 var/lib/pulse2/clients/win/downloads/RDPWrap-v1.6.1.zip
 var/lib/pulse2/clients/win/downloads/VCForPython27.msi
 var/lib/pulse2/clients/win/downloads/cwRsync_5.5.0_x86_Free.zip
-var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x64_2.4-portable.exe
-var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x64_2.4.exe
-var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x86_2.4-portable.exe
-var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x86_2.4.exe
+var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x64_2.4.2-portable.exe
+var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x64_2.4.2.exe
+var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x86_2.4.2-portable.exe
+var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x86_2.4.2.exe
 var/lib/pulse2/clients/win/downloads/libcurl4-7.52.1-1.tar.xz
 var/lib/pulse2/clients/win/downloads/python-2.7.9.amd64.msi
 var/lib/pulse2/clients/win/downloads/python-2.7.9.msi
