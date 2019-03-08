@@ -1,5 +1,6 @@
 var/lib/pulse2/clients/mac/downloads/1.5.12.tar.gz
 var/lib/pulse2/clients/mac/downloads/OSXvnc-5.2.1.dmg
+var/lib/pulse2/clients/mac/downloads/syncthing-macos-amd64-v1.1.0.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/configparser-3.5.0.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/croniter-0.3.16.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/lxml-3.6.0.tar.gz
@@ -14,11 +15,18 @@ var/lib/pulse2/clients/mac/downloads/python_modules/zipfile2-0.0.12-py2.py3-none
 var/lib/pulse2/clients/mac/downloads/python_modules/psutil-5.4.3.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/plyvel-1.0.1.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/zipfile2-0.0.12-py2.py3-none-any.whl
+var/lib/pulse2/clients/mac/downloads/python_modules/pysftp-0.2.9.tar.gz
+var/lib/pulse2/clients/mac/downloads/python_modules/syncthing-2.3.1.tar.gz
+var/lib/pulse2/clients/mac/downloads/python_modules/requests-2.21.0-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/OpenSSH-Win32.zip
 var/lib/pulse2/clients/win/downloads/OpenSSH-Win64.zip
 var/lib/pulse2/clients/win/downloads/RDPWrap-v1.6.1.zip
 var/lib/pulse2/clients/win/downloads/VCForPython27.msi
 var/lib/pulse2/clients/win/downloads/cwRsync_5.5.0_x86_Free.zip
+var/lib/pulse2/clients/win/downloads/tightvnc-2.8.8-gpl-setup-32bit.msi
+var/lib/pulse2/clients/win/downloads/tightvnc-2.8.8-gpl-setup-64bit.msi
+var/lib/pulse2/clients/win/downloads/syncthing-windows-386-v1.1.0.zip
+var/lib/pulse2/clients/win/downloads/syncthing-windows-amd64-v1.1.0.zip
 var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x64_2.4.2-portable.exe
 var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x64_2.4.2.exe
 var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x86_2.4.2-portable.exe
@@ -45,5 +53,6 @@ var/lib/pulse2/clients/win/downloads/python_modules/six-1.10.0-py2.py3-none-any.
 var/lib/pulse2/clients/win/downloads/python_modules/sleekxmpp-1.3.1.tar.gz
 var/lib/pulse2/clients/win/downloads/python_modules/utils-0.9.0.tar.gz
 var/lib/pulse2/clients/win/downloads/python_modules/zipfile2-0.0.12-py2.py3-none-any.whl
-var/lib/pulse2/clients/win/downloads/tightvnc-2.8.8-gpl-setup-32bit.msi
-var/lib/pulse2/clients/win/downloads/tightvnc-2.8.8-gpl-setup-64bit.msi
+var/lib/pulse2/clients/win/downloads/python_modules/pysftp-0.2.9.tar.gz
+var/lib/pulse2/clients/win/downloads/python_modules/syncthing-2.3.1.tar.gz
+var/lib/pulse2/clients/win/downloads/python_modules/requests-2.21.0-py2.py3-none-any.whl
