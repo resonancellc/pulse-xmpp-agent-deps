@@ -18,6 +18,10 @@ var/lib/pulse2/clients/mac/downloads/python_modules/zipfile2-0.0.12-py2.py3-none
 var/lib/pulse2/clients/mac/downloads/python_modules/pysftp-0.2.9.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/syncthing-2.3.1.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/requests-2.21.0-py2.py3-none-any.whl
+var/lib/pulse2/clients/mac/downloads/python_modules/idna-2.8-py2.py3-none-any.whl
+var/lib/pulse2/clients/mac/downloads/python_modules/urllib3-1.24.1-py2.py3-none-any.whl
+var/lib/pulse2/clients/mac/downloads/python_modules/certifi-2019.3.9-py2.py3-none-any.whl
+var/lib/pulse2/clients/mac/downloads/python_modules/chardet-3.0.4-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/OpenSSH-Win32.zip
 var/lib/pulse2/clients/win/downloads/OpenSSH-Win64.zip
 var/lib/pulse2/clients/win/downloads/RDPWrap-v1.6.1.zip
@@ -56,3 +60,7 @@ var/lib/pulse2/clients/win/downloads/python_modules/zipfile2-0.0.12-py2.py3-none
 var/lib/pulse2/clients/win/downloads/python_modules/pysftp-0.2.9.tar.gz
 var/lib/pulse2/clients/win/downloads/python_modules/syncthing-2.3.1.tar.gz
 var/lib/pulse2/clients/win/downloads/python_modules/requests-2.21.0-py2.py3-none-any.whl
+var/lib/pulse2/clients/win/downloads/python_modules/idna-2.8-py2.py3-none-any.whl
+var/lib/pulse2/clients/win/downloads/python_modules/urllib3-1.24.1-py2.py3-none-any.whl
+var/lib/pulse2/clients/win/downloads/python_modules/certifi-2019.3.9-py2.py3-none-any.whl
+var/lib/pulse2/clients/win/downloads/python_modules/chardet-3.0.4-py2.py3-none-any.whl
