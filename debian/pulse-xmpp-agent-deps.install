@@ -61,7 +61,7 @@ var/lib/pulse2/clients/win/downloads/python_modules/utils-0.9.0.tar.gz
 var/lib/pulse2/clients/win/downloads/python_modules/zipfile2-0.0.12-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/pysftp-0.2.9.tar.gz
 var/lib/pulse2/clients/win/downloads/python_modules/paramiko-1.18.5-py2.py3-none-any.whl
-var/lib/pulse2/clients/win/downloads/python_modules/ecdsa-0.15-py2.py3-none-any.whl
+var/lib/pulse2/clients/win/downloads/python_modules/ecdsa-0.13-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/syncthing-2.3.1.tar.gz
 var/lib/pulse2/clients/win/downloads/python_modules/requests-2.18.4-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/idna-2.6-py2.py3-none-any.whl
