@@ -49,7 +49,7 @@ Source111:   https://pypi.python.org/packages/f1/c7/e19d317cc948095abc872a6e6ae7
 Source112:   https://files.pythonhosted.org/packages/35/a7/6a1a44d3a37358f8fda5d1b992c837cb2db8940293c2d84faa145f29e88a/lxml-3.6.0-cp27-none-win_amd64.whl
 Source113:   https://pypi.python.org/packages/60/db/645aa9af249f059cc3a368b118de33889219e0362141e75d4eaf6f80f163/pycrypto-2.6.1.tar.gz
 Source114:   https://pypi.python.org/packages/58/2a/17d003f2a9a0188cf9365d63b3351c6522b7d83996b70270c65c789e35b9/croniter-0.3.16.tar.gz
-Source115:   https://pypi.python.org/packages/40/8b/275015d7a9ec293cf1bbf55433258fbc9d0711890a7f6dc538bac7b86bce/python_dateutil-2.6.0-py2.py3-none-any.whl
+Source115:   https://files.pythonhosted.org/packages/4b/0d/7ed381ab4fe80b8ebf34411d14f253e1cf3e56e2820ffa1d8844b23859a2/python_dateutil-2.6.1-py2.py3-none-any.whl \
 Source116:   https://pypi.python.org/packages/c8/0a/b6723e1bc4c516cb687841499455a8505b44607ab535be01091c0f24f079/six-1.10.0-py2.py3-none-any.whl
 Source117:   https://pypi.python.org/packages/e5/cc/6dd427e738a8db6d0b66525856da43d2ef12c4c19269863927f7cf0e2aaf/psutil-5.4.3-cp27-none-win32.whl
 Source118:   https://files.pythonhosted.org/packages/b9/e4/6867765edcab8d12a52c84c9b0af492ecb99f8cc565ad552341bcf73ebd9/psutil-5.4.3-cp27-none-win_amd64.whl
@@ -66,11 +66,13 @@ Source128:   https://pypi.python.org/packages/e2/e1/600326635f97fee89bf8426fef14
 Source129:   https://pypi.python.org/packages/28/df/755dab9f83c37031aea1cd9915673b5633665c575d649e812657df95b944/plyvel-1.0.1.tar.gz
 Source130:   https://files.pythonhosted.org/packages/36/60/45f30390a38b1f92e0a8cf4de178cd7c2bc3f874c85430e40ccf99df8fe7/pysftp-0.2.9.tar.gz
 Source131:   https://files.pythonhosted.org/packages/ef/4e/9f04fc58040cbf05984d7ca9393ff2dbc8b6909b163a768fc28786eacf06/syncthing-2.3.1.tar.gz
-Source132:   https://files.pythonhosted.org/packages/7d/e3/20f3d364d6c8e5d2353c72a67778eb189176f08e873c9900e10c0287b84b/requests-2.21.0-py2.py3-none-any.whl
-Source133:   https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl
-Source134:   https://files.pythonhosted.org/packages/62/00/ee1d7de624db8ba7090d1226aebefab96a2c71cd5cfa7629d6ad3f61b79e/urllib3-1.24.1-py2.py3-none-any.whl
+Source132:   https://files.pythonhosted.org/packages/49/df/50aa1999ab9bde74656c2919d9c0c085fd2b3775fd3eca826012bef76d8c/requests-2.18.4-py2.py3-none-any.whl
+Source133:   https://files.pythonhosted.org/packages/27/cc/6dd9a3869f15c2edfab863b992838277279ce92663d334df9ecf5106f5c6/idna-2.6-py2.py3-none-any.whl
+Source134:   https://files.pythonhosted.org/packages/63/cb/6965947c13a94236f6d4b8223e21beb4d576dc72e8130bd7880f600839b8/urllib3-1.22-py2.py3-none-any.whl
 Source135:   https://files.pythonhosted.org/packages/60/75/f692a584e85b7eaba0e03827b3d51f45f571c2e793dd731e598828d380aa/certifi-2019.3.9-py2.py3-none-any.whl
 Source136:   https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
+Source137:   https://files.pythonhosted.org/packages/95/a8/72f860ff71bc260a4c815f50c65e04d69b9c5a3e51ff82afe3cd6757faa9/paramiko-1.18.5-py2.py3-none-any.whl
+Source138:   https://files.pythonhosted.org/packages/63/f4/73669d51825516ce8c43b816c0a6b64cd6eb71d08b99820c00792cb42222/ecdsa-0.13-py2.py3-none-any.whl
 
 License:	MIT
 Group:		Development/Java
@@ -98,14 +100,14 @@ Dependancies needed for kiosk windows agent
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/
 cp %SOURCE1 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE19 %SOURCE20 %buildroot/var/lib/pulse2/clients/win/downloads/
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
-cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
+cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/
 cp %SOURCE17 %SOURCE18 %SOURCE21 %buildroot/var/lib/pulse2/clients/mac/downloads/
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
-cp %SOURCE102 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE108 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE126 %SOURCE127 %SOURCE128 %SOURCE129 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
+cp %SOURCE102 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE108 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE126 %SOURCE127 %SOURCE128 %SOURCE129 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 
 
 %files
