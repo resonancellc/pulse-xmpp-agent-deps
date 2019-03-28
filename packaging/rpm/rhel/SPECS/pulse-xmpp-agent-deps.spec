@@ -17,8 +17,8 @@ Source2:     https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi
 Source3:     https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe
 Source4:     https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
 Source5:     https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi
-Source6:     https://agents.siveo.net/win/libcurl4-7.52.1-1.tar.xz
-Source7:     https://agents.siveo.net/win/cwRsync_5.5.0_x86_Free.zip
+Source6:     https://agents.siveo.net/win/downloads/libcurl4-7.52.1-1.tar.xz
+Source7:     https://agents.siveo.net/win/downloads/cwRsync_5.5.0_x86_Free.zip
 Source8:     https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.21.0/OpenSSH-Win32.zip
 Source9:     https://github.com/PowerShell/Win32-OpenSSH/releases/download/v0.0.21.0/OpenSSH-Win64.zip
 Source10:    https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4.2/fusioninventory-agent_windows-x86_2.4.2.exe
