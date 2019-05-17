@@ -25,7 +25,6 @@ Source10:    https://github.com/fusioninventory/fusioninventory-agent/releases/d
 Source11:    https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4.2/fusioninventory-agent_windows-x86_2.4.2-portable.exe
 Source12:    https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4.2/fusioninventory-agent_windows-x64_2.4.2.exe
 Source13:    https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4.2/fusioninventory-agent_windows-x64_2.4.2-portable.exe
-Source14:    https://github.com/stascorp/rdpwrap/releases/download/v1.6.1/RDPWrap-v1.6.1.zip
 Source15:    https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-32bit.msi
 Source16:    https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-64bit.msi
 Source17:    https://github.com/stweil/OSXvnc/releases/download/V5_2_1/OSXvnc-5.2.1.dmg
@@ -98,7 +97,7 @@ Dependancies needed for kiosk windows agent
 
 %install
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/
-cp %SOURCE1 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE19 %SOURCE20 %buildroot/var/lib/pulse2/clients/win/downloads/
+cp %SOURCE1 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE15 %SOURCE16 %SOURCE19 %SOURCE20 %buildroot/var/lib/pulse2/clients/win/downloads/
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
 cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
 

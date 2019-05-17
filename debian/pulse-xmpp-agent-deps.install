@@ -26,7 +26,6 @@ var/lib/pulse2/clients/mac/downloads/python_modules/certifi-2019.3.9-py2.py3-non
 var/lib/pulse2/clients/mac/downloads/python_modules/chardet-3.0.4-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/OpenSSH-Win32.zip
 var/lib/pulse2/clients/win/downloads/OpenSSH-Win64.zip
-var/lib/pulse2/clients/win/downloads/RDPWrap-v1.6.1.zip
 var/lib/pulse2/clients/win/downloads/VCForPython27.msi
 var/lib/pulse2/clients/win/downloads/cwRsync_5.5.0_x86_Free.zip
 var/lib/pulse2/clients/win/downloads/tightvnc-2.8.8-gpl-setup-32bit.msi
