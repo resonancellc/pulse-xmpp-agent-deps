@@ -67,3 +67,4 @@ var/lib/pulse2/clients/win/downloads/python_modules/idna-2.6-py2.py3-none-any.wh
 var/lib/pulse2/clients/win/downloads/python_modules/urllib3-1.22-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/certifi-2019.3.9-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/chardet-3.0.4-py2.py3-none-any.whl
+var/lib/pulse2/clients/win/downloads/python_modules/pathlib-1.0.1.tar.gz
