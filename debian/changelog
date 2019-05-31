@@ -1,6 +1,6 @@
 pulse-xmpp-agent-deps (1.7-1)  unstable; urgency=low
 
- * Addition of dependencies for Syncthing
+ * Addition of dependencies for Syncthing 
 
  -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net> Fri, 8 Mar 2019 15:02:00 +0100
 
