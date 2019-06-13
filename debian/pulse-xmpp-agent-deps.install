@@ -1,5 +1,6 @@
 var/lib/pulse2/clients/mac/downloads/1.5.12.tar.gz
 var/lib/pulse2/clients/mac/downloads/OSXvnc-5.2.1.dmg
+var/lib/pulse2/clients/mac/downloads/FusionInventory-Agent-2.4-1.pkg.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/configparser-3.5.0.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/croniter-0.3.16.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/lxml-3.6.0.tar.gz
